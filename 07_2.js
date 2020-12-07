@@ -64,6 +64,6 @@ function parseBags(input) {
 }
 
 const bagsWithContent = parseBags(INPUT);
-const caryingBagsCount = countBagsInside(bagsWithContent, REQUIRED_BAG);
+const carryingBagsCount = countBagsInside(bagsWithContent, REQUIRED_BAG);
 
-console.log(caryingBagsCount);
+console.log(carryingBagsCount);
