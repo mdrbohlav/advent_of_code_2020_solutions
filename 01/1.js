@@ -1,6 +1,6 @@
-const readInput = require('./read_input');
+const readInput = require('../read_input');
 
-const INPUT = readInput('01_input.txt', { mapper: (line => parseInt(line, 10)) });
+const INPUT = readInput('01/input.txt', { mapper: (line => parseInt(line, 10)) });
 const SUM = 2020;
 
 function getAdditions(arr) {

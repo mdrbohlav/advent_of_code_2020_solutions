@@ -1,6 +1,6 @@
-const readInput = require("./read_input");
+const readInput = require("../read_input");
 
-const INPUT = readInput("08_input.txt");
+const INPUT = readInput("08/input.txt");
 
 function runInstruction(instruction) {
   let accumulator = 0;

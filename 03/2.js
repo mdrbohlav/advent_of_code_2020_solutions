@@ -1,6 +1,6 @@
-const readInput = require('./read_input');
+const readInput = require('../read_input');
 
-const INPUT = readInput('03_input.txt');
+const INPUT = readInput('03/input.txt');
 const MOVES = [
   {
     horizontal: 1,

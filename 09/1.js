@@ -1,6 +1,6 @@
-const readInput = require("./read_input");
+const readInput = require("../read_input");
 
-const INPUT = readInput("09_input.txt");
+const INPUT = readInput("09/input.txt");
 const PREAMBLE_LENGTH = 25;
 
 function isNextNumberValid(preamble, number) {

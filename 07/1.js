@@ -1,6 +1,6 @@
-const readInput = require("./read_input");
+const readInput = require("../read_input");
 
-const INPUT = readInput("07_input.txt");
+const INPUT = readInput("07/input.txt");
 const REQUIRED_BAG = "shiny gold";
 
 function getOuterBags(outerBags, innerBagColor) {

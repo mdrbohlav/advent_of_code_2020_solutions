@@ -1,6 +1,6 @@
-const readInput = require('./read_input');
+const readInput = require('../read_input');
 
-const INPUT = readInput('04_input.txt', { includeEmptyLines: true });
+const INPUT = readInput('04/input.txt', { includeEmptyLines: true });
 const REQUIRED_FIELDS = {
   byr: {
     type: 'digits',

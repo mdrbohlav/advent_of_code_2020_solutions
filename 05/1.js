@@ -1,6 +1,6 @@
-const readInput = require('./read_input');
+const readInput = require('../read_input');
 
-const INPUT = readInput('05_input.txt');
+const INPUT = readInput('05/input.txt');
 const ROWS = 127;
 const COLUMNS = 7;
 

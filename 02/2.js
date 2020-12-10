@@ -1,7 +1,7 @@
 
-const readInput = require('./read_input');
+const readInput = require('../read_input');
 
-const INPUT = readInput('02_input.txt');
+const INPUT = readInput('02/input.txt');
 
 function isPasswordValidToPolicy(password, policy) {
   let found = false;

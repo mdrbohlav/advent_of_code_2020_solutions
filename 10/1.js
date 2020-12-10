@@ -1,6 +1,6 @@
-const readInput = require("./read_input");
+const readInput = require("../read_input");
 
-const INPUT = readInput("10_input.txt", {
+const INPUT = readInput("10/input.txt", {
   mapper: (line) => parseInt(line, 10),
 });
 

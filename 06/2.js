@@ -1,6 +1,6 @@
-const readInput = require("./read_input");
+const readInput = require("../read_input");
 
-const INPUT = readInput("06_input.txt", { includeEmptyLines: true });
+const INPUT = readInput("06/input.txt", { includeEmptyLines: true });
 
 function countTotalYes(yesForGroups) {
   return yesForGroups.reduce((t, n) => t + n, 0);
