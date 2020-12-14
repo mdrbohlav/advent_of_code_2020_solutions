@@ -21,11 +21,11 @@ function earliestTimestampWithDeparturesAfterSpecifiedMinutes(buses) {
   let step = BigInt(1);
 
   buses.forEach((b) => {
-    while((timestamp + BigInt(b.offset)) % BigInt(b.id) !== BigInt(0)) {
+    while((timestamp + b.offset) % b.id !== BigInt(0)) {
       timestamp += step;
     }
 
-    step = lcm(step, BigInt(b.id));
+    step = lcm(step, b.id);
   });
 
   return timestamp;
@@ -40,8 +40,8 @@ function parseBusesWithDepartDelay(buses) {
       }
 
       return {
-        id: parseInt(id, 10),
-        offset: index,
+        id: BigInt(parseInt(id, 10)),
+        offset: BigInt(index),
       };
     })
     .filter((b) => b);
